@@ -8,8 +8,8 @@ let two = function(z="2") {
 }
 
 let three = function(v="3") {
-  return function(adjective="special") {
-    return `You are ${style}${adjective}${style}!`
+  return function(w="4") {
+    return "w&v"
   }
 }
 
