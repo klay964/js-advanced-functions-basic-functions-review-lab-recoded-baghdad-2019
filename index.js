@@ -7,7 +7,7 @@ let two = function(z="2") {
   return z
 }
 
-let three = function() {
+let three = function(v="3") {
   return function(adjective="special") {
     return `You are ${style}${adjective}${style}!`
   }
