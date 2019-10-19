@@ -1,15 +1,14 @@
-// Your code here
-function one (y="1") {
-  return y 
+function saturdayFun(activity="roller-skate") {
+  return `This Saturday, I want to ${activity}!`
 }
 
-let two = function(z="2") {
-  return z
+let mondayWork = function(activity="go to the office") {
+  return `This Monday, I will ${activity}.`
 }
 
-let three = function(v="3") {
-  return function(w="4") {
-    return "w&v"
+let wrapAdjective = function(style="*") {
+  return function(adjective="special") {
+    return `You are ${style}${adjective}${style}!`
   }
 }
 
